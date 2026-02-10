@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Love You</title>
+  <meta name="description" content="Semangat beraktifitas ya sayang">
+  <meta name="author" content="nnathanrvvv">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/efekteks.css">
+  <link rel="stylesheet" href="css/responsif.css">
+  <link rel="stylesheet" href="css/buciners.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+
+<body>
+  <!--Author    : nnathanrvvv-->
+  <!--Facebook  : https://facebook.com-->
+  <!--Instagram : https://instagram.com/nathannthan_-->
+  <!--Website   : -->
+  <div class="kontener2" id="kontener2">
+    <h1>Haiyee Sayaangku</h1>
+    <button class="tombol" id="tombol">Klik Disini</button>
+  </div>
+
+  <div class="kontener" id="kontener">
+    <div class="dalemnya_kontener">
+      <h1 class="judul_halaman">i love uuu</h1>
+      <a class="tombol_menu" onclick="klikMenu()"></a>
+      <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
+        <h1 class="judul_halaman">princessnya aku</h1>
+        <br>
+        <video src="video/video1.mp4" alt="Web Bucin Html, Css, Js" class="video" autoplay loop muted></video>
+        <br>
+        <div class="ucapan1">
+          <p class="isiucapan1">ini <b class="merahmuda">Syifa Noer Maulida</b> princessnyaa akuu kesayangan akuu cintanya aku semuaa muanyaa punya aku.
+          </p>
+        </div>
+      </section>
+      <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)">
+        <h1 class="judul_halaman">happy valentine's day</h1>
+        <br>
+        <img src="gambar/gambar2.png" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
+        <div class="ucapan2">
+          <p class="isiucapan2">Haii sayangku cantiknya akuu cintanyaa aku semestanya aku, happy valentine's day sayangkuu. timakasii yaa udaa menemani hari hari akuu yaang amat sangat melelahkann dann mengesalkann ehehe, jangan pernah berubah yaa sayang aku bangga bangga banget punya kamu, kurang kurangiin gapedenya kamu yaa, kamuu itu cantikk, berbakatt, berprestasii, pinterr, pokoonya pacar akuu perfect perfect bangett deh. i love uu sayangku
+          </p>
+        </div>
+      </section>
+      <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(2)">
+        <h1 class="judul_halaman">24 more days until your birthday </h1>
+        <br>
+        <img src="gambar/ultah.png" alt="Web Bucin Html, Css, Js" class="ultah">
+        <br>
+        <div class="ucapan3">
+          <p class="isiucapan3">ahahhaa gakerasaa yaa sebentar lagi kamu ulang tahunn, oiyaa sayang tahun inii kamuu 17tahunn yaa, kamuu akaan menjadii dewasaa (dimata aku kamu tetep dede kicik), semogaa tahun ini menjadi tahun yang lebih baik daripada tahun tahun sebelumnyaa. semogaa dengann bertambahnya usia kamuu, kamuu semakin semangaatt ngejarr cita cita kamuu yaa, akuu bakal selalu support kamu dibalik layaar, dan yang pastii kamu haruss lebih bisaa membedakan mana yang baik dan yang burukk. kaloo misal nanti hari hari kamu buruk kamuu pengen ceritaa atau pengen istirahat, langsungg ke aku aja yaa, mungkinn aku belum jadii yang terbaik tapii <b class="biru">i'm always be here for u and i'm always proud of u babee,</b> u did a really great a good joob, i love uuu soo much, i love uu more than anything, i love uu todayy tomorrow and alwayss, i still love youu thee samee as thee first time i said that lovee youuu, aku cuma bisa bilang lewat wangsap sekarang, tapi nanti kalo kita udaa ketemuu atau face to face aku bakall ulangi kalimat inii lagii didepan kamuu, mwaa🤍🫂</p>
+        </div>
+      </section>
+      <section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(3)">
+        <h1 class="judul_halaman">Syifa Noer Maulida</h1>
+        <br>
+        <h1 id="waktu"></h1>
+        <script type="text/javascript">
+          document.write("<center>");
+          var hari = new Date();
+          var jam = hari.getHours();
+          if (jam >= 0 && jam < 14) {
+            document.write(
+              "<h1 class='ucapan'>Selamat Pagi Sayang!</h1><p class='isiucapan'>setiap aku bukaa mataa, yang mauu aku liatt cumaa kamu. i love uu sayangku <3<p>"
+            );
+          } else if (jam == 14) {
+            document.write(
+              "<h1 class='ucapan'>Selamat Siang Sayang!</h1><p class='isiucapan'>Jangan lupa mamm yaa sayang. i love uu dedee kesayangan kakaa <3<p>"
+            );
+          } else if (jam >= 14 && jam <= 17) {
+            document.write(
+              "<h1 class='ucapan'>Selamat Sore Sayang!</h1><p class='isiucapan'>Jangan lupa mandi ntutt, Jam demi jam udaa kamu lewatinn dengan baik, istirahat yaa sayangkuu, supaya besok badan kamuu fit dan kuatt. i love uu sayang <3<p>"
+            );
+          } else {
+            document.write(
+              "<h1 class='ucapan'>Selamat Malam Sayang!</h1><p class='isiucapan'>abiss beraktifitas sehariaan sekarang waktunya istirahat, jangan lupaa mamm ya sayangku. i love uu princess kecilnya akuu <3<p>"
+            );
+          }
+          document.write("</center>");
+        </script>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <script>
+    document.getElementById("waktu").innerHTML = formatAMPM();
+
+    function formatAMPM() {
+      var waktu = new Date(),
+        menit = waktu.getMinutes().toString().length == 1 ? '0' + waktu.getMinutes() : waktu.getMinutes(),
+        jam = waktu.getHours().toString().length == 1 ? '0' + waktu.getHours() : waktu.getHours(),
+        ampm = waktu.getHours() >= 12 ? 'PM' : 'AM',
+        bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober',
+          'November', 'Desember'
+        ],
+        hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+      return '<h1 class="ml1"><span class="text-wrapper"><span class="line line1"></span><span class="letters">' + hari[
+          waktu.getDay()] +
+        ', ' + waktu.getDate() + ' ' + bulan[waktu.getMonth()] +
+        ' ' + waktu.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' +
+        menit + ' ' + ampm + ' </p>';
+
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      var audio = new Audio('audio/audiospesial1.mp3');
+      $("#tombol").click(function () {
+        $("#kontener2").fadeOut();
+        $("#kontener").fadeIn("4000");
+        audio.play();
+      });
+    });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml1 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml1 .letter',
+        scale: [0.3, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 600,
+        delay: (el, i) => 70 * (i + 1)
+      }).add({
+        targets: '.ml1 .line',
+        scaleX: [0, 1],
+        opacity: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 700,
+        offset: '-=875',
+        delay: (el, i, l) => 80 * (l - i)
+      }).add({
+        targets: '.ml1',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml2');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml2 .letter',
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: 1400
+      }).add({
+        targets: '.ml2',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+</body>
+
+</html>
